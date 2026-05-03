@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sound Booster"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp"/>
+
+    <TextView
+        android:id="@+id/boostText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boost: 0%"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <SeekBar
+        android:id="@+id/boostSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Slide to boost system volume. Works with music, videos, games."
+        android:textAlignment="center"
+        android:textSize="14sp"/>
+
+</LinearLayout>
